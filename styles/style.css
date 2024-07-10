@@ -6,7 +6,7 @@ body{
 .banner-container{
     max-width: 1440px;
     height: 652px;
-    
+    margin-bottom: 74px;
     background-image: url(../assets/Hero-bg.png);
 }
 
@@ -52,11 +52,12 @@ p{
 
 /* Web development section */
 .web-development-section{
-    max-width: 946px;
+    max-width: 980px;
     margin: 0 auto;
     height: 1237px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    
 }
 
 .web-development-content{
@@ -88,7 +89,7 @@ text-align: center;
 .title-paragraph{
     max-width: 852px;
     height: 156px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0px 47px 48px 47px;
 }
 
@@ -97,7 +98,7 @@ text-align: center;
 } */
 .first-section{
     
-   border: 2px solid green;
+   /* border: 2px solid green; */
    max-width: 946px;
    margin: 0 auto;
    height: 336px;
@@ -113,6 +114,7 @@ text-align: center;
     width: 50%;
   text-align: left;
   padding: 20px 0 20px 30px;
+  
 }
  .first-section-content h4{
     color: rgba(13, 19, 33, 0.7);
@@ -148,4 +150,50 @@ text-align: center;
     width: 259px;
     height: 217px;
     margin: 48px 48px 48px 99px;
+}
+/* 2nd section start */
+
+.second-section-content{
+    max-width: 946px;
+  height: 336px;
+  display: flex;
+  text-align: center;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.06);
+  margin: 24px 0 24px 0;
+  border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.group-3{
+  width: 40%;
+  text-align: left;
+  padding: 20px 0 20px 30px;
+}
+.second-section-text{
+    width: 50%;
+  text-align: left;
+  padding: 20px 0 20px 30px;
+ 
+}
+.second-section-text h4{
+    color: rgba(13, 19, 33, 0.7);
+  font-size: 20px;
+  font-weight: 680;
+}
+.second-section-text p{
+    color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   opacity: 0.7;
+   margin-top: 16px;
+   margin-bottom: 32px;
+}
+.second-section-btn{
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  width: 150px;
+  height: 48px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
