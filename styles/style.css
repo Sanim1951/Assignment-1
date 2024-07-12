@@ -8,6 +8,13 @@ body{
   margin: 0;
   padding: 0;
 }
+body p{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+
+}
 .banner-container{
     max-width: 1440px;
     height: 652px;
@@ -306,5 +313,114 @@ align-items: center;
     border-radius: 16px;
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
-  /* border-radius: 16px; */
+  }
+
+  /* MY Target Section */
+  .targets{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 1444px;
+    border: 2px solid red;
+    margin-top: 130px;
+    /* display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center; */
+  }
+
+  .current-targets{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 463px;
+    /* border: 2px solid green; */
+  }
+  .target-description{
+    max-width: 946px;
+    margin: 0 auto;
+    height: 115px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 144px 48px 144px;
+  }
+  .target-description h4{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .target-description p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+  }
+  .skills{
+    max-width: 1140px;
+    max-width: 0 auto;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+  /* HTML description */
+  .html{
+    max-width: 364px;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-left: 0px;
+  }
+  .html-content,.css-content,.js-content{
+    max-width: 284px;
+    margin: 0 auto;
+    height: 220px;
+    margin: 40px 40px;
+  }
+  .html-content img,.css-content-img,.js-content-img{
+    width: 56px;
+    height: 56px;
+  }
+  .html-description{
+    max-width: 284px;
+    margin: 0 auto;
+    height: 140px;
+  }
+  .html-description h5,.css-description h5{
+    color: rgb(13, 19, 33);
+    
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  .html-description p{
+    margin-bottom: 12px;
+  }
+  #learn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .css{
+    max-width: 364px;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 16px;
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+  }
+  .js{
+    max-width: 364px;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
   }
